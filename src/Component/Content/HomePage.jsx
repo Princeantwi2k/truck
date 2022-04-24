@@ -30,33 +30,15 @@ const Homepage = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src={pic} class="d-block w-100 pic" alt="pic" />
-            <div className="caro-text" data-aos="fade-up">
-              <h1 className="caro-h1">
-                We are with you all the way along in line
-              </h1>
-            </div>
           </div>
           <div class="carousel-item">
             <img src={pic1} class="d-block w-100 pic" alt="pic" />
-            <div className="caro-text2">
-              <h1 className="caro-h1">the New Big:Pure Trucks F-MAX</h1>
-            </div>
           </div>
           <div class="carousel-item">
             <img src={pic2} class="d-block w-100 pic" alt="pic" />
-            <div className="caro-text3">
-              <h1 className="caro-h1">
-                We have all the neccessary precaution against Covid 19
-              </h1>
-            </div>
           </div>
           <div class="carousel-item">
             <img src={pic3} class="d-block w-100 pic" alt="pic" />
-            <div className="caro-text">
-              <h1 className="caro-h1">
-                Stay home and colorful with your children
-              </h1>
-            </div>
           </div>
         </div>
         <button
