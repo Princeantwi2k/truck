@@ -1,0 +1,99 @@
+.project-div {
+    position: absolute;
+    top: 50px;
+  }
+  .project-name {
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+  .project-para {
+    font-size: 10px;
+    padding: 10px;
+    color: white;
+    color: black;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+  }
+  .product-image {
+    height: 300px;
+    width: 400px;
+  }
+  .project-topic {
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+  .project-para1 {
+    text-align: center;
+    padding: 10px;
+  }
+  .details {
+    background-color: rgb(73, 73, 134);
+    padding: 15px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: bisque;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+  @media screen and (min-width: 780px) {
+    .row {
+      display: flex;
+      margin-bottom: 40px;
+    }
+    .project-div {
+      position: absolute;
+      top: 100px;
+    }
+    .project-name {
+      padding-top: 20px;
+      color: black;
+      text-align: center;
+      font-weight: bolder;
+      font-style: oblique;
+      font-size: 3rem;
+    }
+    .project-para {
+      font-size: 20px;
+      padding-top: 30px;
+      padding-left: 60px;
+      padding-right: 60px;
+      color: black;
+      font-weight: bolder;
+      font-style: oblique;
+      text-align: center;
+    }
+    .product-image {
+      height: 500px;
+      margin-bottom: 40px;
+    }
+    .project-topic {
+      padding-top: 20px;
+      color: black;
+      text-align: center;
+      font-weight: bolder;
+      font-style: oblique;
+    }
+    .project-para1 {
+      text-align: center;
+      padding: 10px;
+    }
+    .details {
+      background-color: rgb(73, 73, 134);
+      padding: 15px;
+      text-align: center;
+      margin-right: 20%;
+      margin-left: 20%;
+      color: bisque;
+      font-weight: bolder;
+      font-style: oblique;
+    }
+  }
+  

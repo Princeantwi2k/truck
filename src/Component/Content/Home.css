@@ -1,0 +1,366 @@
+.nav {
+    display: flex;
+    z-index: 999;
+    background-color: rgb(32, 32, 53);
+  }
+  .logo {
+    color: white;
+  }
+  .caro-h1 {
+    font-size: 14px;
+  }
+  .caro-text {
+    position: absolute;
+    bottom: 50px;
+    z-index: 999;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+  }
+  .caro-text2 {
+    position: absolute;
+    bottom: 50px;
+    z-index: 999;
+    padding: 6px;
+    right: 0px;
+    text-align: center;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+  }
+  .caro-text3 {
+    position: absolute;
+    bottom: 10px;
+    z-index: 999;
+    right: 0px;
+    text-align: center;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 0px;
+  }
+  
+  .trucks {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+  .truck {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 6px;
+  }
+  .pic {
+    height: 200px;
+    width: 100px;
+  }
+  .pics {
+    margin: 10px;
+  }
+  .image {
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+  }
+  .image:hover {
+    transform: scale(1.2);
+  }
+  .type-text {
+    color: gray;
+    font-style: oblique;
+  }
+  .type-topic {
+    font-weight: bolder;
+    font-style: oblique;
+  }
+  .main-ser {
+    background-color: rgb(75, 6, 124);
+    margin: 20px;
+  }
+  
+  .ser-topic {
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+  }
+  .ser-div {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .ser-pic {
+    height: 300px;
+    width: 350px;
+  }
+  
+  .tech {
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 40px;
+    color: white;
+  }
+  .techs {
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    color: white;
+  }
+  .tech-p {
+    text-align: center;
+    color: white;
+  }
+  .contact {
+    background-color: rgb(255, 196, 0);
+    margin: 20px;
+  }
+  .contact-us {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 10px;
+  }
+  .circle {
+    padding: 8px;
+    background-color: white;
+    border-radius: 50px;
+    margin-right: 30%;
+    margin-left: 30%;
+  }
+  .span {
+    color: white;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-left: 10px;
+  }
+  .online {
+    color: red;
+  }
+  .online-label {
+    color: gray;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-right: 10px;
+  }
+  .content {
+    margin-left: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .name {
+    margin-left: 49px;
+    margin-bottom: 10px;
+  }
+  .number {
+    margin-bottom: 10px;
+  }
+  .email {
+    margin-bottom: 10px;
+    margin-left: 55px;
+  }
+  .buttom {
+    margin-left: 40%;
+    color: white;
+    background-color: black;
+  }
+  .links {
+    color: white !important;
+    text-decoration: none;
+  }
+  @media screen and (min-width: 780px) {
+    .trucks {
+      margin-top: 30px;
+      text-align: center;
+      padding: 20px;
+    }
+    .truck {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      margin-left: 6px;
+    }
+    .pic {
+      height: 500px;
+      width: 100px;
+    }
+    .pics {
+      margin: 10px;
+    }
+    .image {
+      height: 400px;
+      width: 300px;
+      margin-top: 40px;
+    }
+    .image:hover {
+      transform: scale(1.2);
+    }
+    .type-text {
+      color: gray;
+      font-style: oblique;
+    }
+    .type-topic {
+      font-weight: bolder;
+      font-style: oblique;
+    }
+    .main-ser {
+      background-color: rgb(75, 6, 124);
+    }
+  
+    .ser-topic {
+      font-weight: bolder;
+      font-style: oblique;
+      text-align: center;
+      color: white;
+      padding: 10px;
+    }
+    .ser {
+      position: relative;
+      display: flex;
+    }
+    .ser-div {
+      margin-bottom: 10px;
+      margin-right: 20px;
+    }
+    .ser-pic {
+      height: 400px;
+      width: 300px;
+      padding: 10px;
+    }
+    .ser-pic:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  
+    .tech {
+      color: white;
+      text-align: start;
+      font-weight: bolder;
+      font-style: oblique;
+    }
+    .techs {
+      text-align: start;
+      color: white;
+      font-weight: bolder;
+      font-style: oblique;
+    }
+    .tech-p {
+      text-align: end;
+      color: white;
+    }
+    .caro-h1 {
+      font-size: 20px;
+      font-weight: bolder;
+      font-style: italic;
+    }
+    .caro-text {
+      position: absolute;
+  
+      bottom: 200px;
+      z-index: 999;
+      padding: 20px;
+      left: 150px;
+      text-align: center;
+      background-color: white;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-radius: 20px;
+    }
+    .caro-text2 {
+      position: absolute;
+      bottom: 200px;
+      z-index: 999;
+      padding: 20px;
+      right: 100px;
+      text-align: center;
+      background-color: white;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-radius: 20px;
+    }
+    .caro-text3 {
+      position: absolute;
+  
+      bottom: 50px;
+      z-index: 999;
+      padding: 20px;
+      right: 200px;
+      text-align: center;
+      background-color: white;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-radius: 20px;
+    }
+    .contact {
+      background-color: rgb(255, 196, 0);
+      padding: 20px;
+    }
+    .contact-us {
+      font-size: 40px;
+      color: white;
+      font-weight: bolder;
+      font-style: oblique;
+      padding: 10px;
+    }
+    .circle {
+      padding: 8px;
+      background-color: white;
+      border-radius: 50px;
+      margin-right: 30%;
+      margin-left: 30%;
+    }
+    .span {
+      color: white;
+      font-weight: bolder;
+      font-style: oblique;
+      padding-left: 10px;
+    }
+    .online {
+      color: red;
+    }
+    .online-label {
+      color: gray;
+      font-weight: bolder;
+      font-style: oblique;
+      padding-right: 10px;
+    }
+    .content {
+      margin-left: 30px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+    .name {
+      margin-left: 49px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+    }
+    .number {
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+    }
+    .email {
+      margin-bottom: 10px;
+      margin-left: 55px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      border-radius: 10px;
+    }
+    .buttom {
+      margin-left: 30%;
+      color: white;
+      background-color: black;
+    }
+  }
+  
